@@ -1,6 +1,11 @@
-### Exercises with Files
-Today's tasks should be coded using the IntelliJ IDE. For each Task you will create a new project, as each task will require you to create a Main class with a main method.
-In some tasks you will write all the code in this main method, while in others you will be asked to make both a Main class with a main method in it (sometimes refered to as the "client class") and an "entity class" whithout a main method but with a constructor. 
+### Exercises with Files and composition
+
+Today's exercises should be performed in IntelliJ. 
+You are to create one new project for the solutions to the excercises in this set. 
+For each task below, you must create a new package in the project's src directory. Name it accordingly to the task, e.g. "Task1". 
+In each package(same as a folder), create a Main.java with a static Main method which will be used to call the methods required to complete the tasks. 
+
+Please note, that it is quite unusual to have a Main class in each package, yet this is done so for the sake of the exercise.
 
 ---
 ## Task 1: ArrayList og Objekter
