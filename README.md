@@ -3,14 +3,14 @@
 Today's exercises should be performed in IntelliJ. 
 You are to create one new project for the solutions to the excercises in this set. 
 For each task below, you must create a new package in the project's src directory. Name it accordingly to the task, e.g. "Task1". 
-In each package(same as a folder), create a Main.java with a public static void main(String[] args) - method which will be used to start the program and call the methods required to complete the tasks. 
+In each package(same as a folder), create a class <code>Main.java</code> with a <code>public static void main(String[] args)</code> - method which will be used to start the program and call the methods required to complete the tasks. 
 
 Please note, that it is quite unusual to have a Main class in each package, yet this is done so for the sake of the exercise.
 
 ---
 ## Task 1: ArrayList og objekter
 
-1.a Lav en klasse, Customer, med attributterne (felterne/instansvariablene):
+1.a Lav en klasse, <code>Customer</code>, med attributterne (felterne/instansvariablene):
 String firstName
 String lastName
 String username
@@ -21,7 +21,7 @@ int id
 1.c Skriv en Main klasse med en main metode, hvor der oprettes en ArrayList, som du kalder 'customers'. Denne skal være erklæret som static global variabel - dvs tilgængelig udenfor main metoden. Tilføj 6 instanser af Customer-klassen til listen customers. Dette gør du i main-metoden. 
 (Du kan oprette instanserne først, og så add'e dem til array'et. Du kan også adde og instantiere i samme linie.)
 
-1.d Skriv en static metode i Main kaldet printCustomers(), hvor du printer alle kunderne ud ved at gennemløbe 'customers' med et ’for each’ loop. Test metoden fra main ved at kalde den.
+1.d Skriv en static metode i Main kaldet <code>printCustomers()</code>, hvor du printer alle kunderne ud ved at gennemløbe 'customers' med et ’for each’ loop. Test metoden fra main ved at kalde den.
 
 
 ## Task 2: Load coffee menu for a cafe
@@ -61,7 +61,7 @@ The solution to this step is given below, but give it a go before peeping.
 2.e Inside the try block from the last step, you will now add this piece of code that loops over the lines of the textfile:
 
 
-Use a while loop with hasNextLine() on the Scanner instance, to loop over the lines of the file and add the lines to the coffees ArrayList in this class.
+Use a while loop with the <code>hasNextLine()</code> and <code>nextLine()</code> -methods called on the Scanner instance, to loop over the lines of the file and add the lines to the coffees ArrayList in this class.
 <details>
   <summary> peep solution:
   </summary>
@@ -76,7 +76,7 @@ Use a while loop with hasNextLine() on the Scanner instance, to loop over the li
 </code>      
 </details>
 
-2.g In the main method create a new instance of the Cafe class and call its <code>loadMenuData</code> -method.
+2.g In the main method create a new instance of the Cafe class and call its <code>loadMenuData()</code> -method.
 
 2.h Still in the main method, print all the elements of the  attribute <code>coffeeMenu</code> of the Cafe instance you just created.
 <details>
