@@ -3,47 +3,41 @@
 Today's exercises should be performed in IntelliJ. 
 You are to create one new project for the solutions to the excercises in this set. 
 For each task below, you must create a new package in the project's src directory. Name it accordingly to the task, e.g. "Task1". 
-In each package(same as a folder), create a Main.java with a static Main method which will be used to call the methods required to complete the tasks. 
+In each package(same as a folder), create a Main.java with a public static void main(String[] args) - method which will be used to start the program and call the methods required to complete the tasks. 
 
 Please note, that it is quite unusual to have a Main class in each package, yet this is done so for the sake of the exercise.
 
 ---
-## Task 1: ArrayList og Objekter
+## Task 1: ArrayList og objekter
 
-1.a Lav en klasse, Customer, med attributterne:
+1.a Lav en klasse, Customer, med attributterne (felterne/instansvariablene):
 String firstName
 String lastName
 String username
 int id
 
-1.b Klassen skal have en konstruktor der tager et parameter med kundens navn og brugernavn. Giv klassen en toString() metode, der printer kundens detaljer pænt ud. Gør alle klassens felter private, og tilføj getters().
+1.b Klassen skal have en konstruktør, der tager kundens navn og brugernavn som parametre. Giv klassen en toString() metode, der printer kundens detaljer pænt ud. Gør alle klassens felter private, og tilføj getters().
 
-1.c Skriv en Main klasse med en main metode, hvor der oprettes en beholder af typen ArrayList, som du kalder 'customers'. Denne skal være erklæret som static global variabel - dvs tilgængelig udenfor main metoden. I customers skal du placere 6 instanser af Customer typen. 
+1.c Skriv en Main klasse med en main metode, hvor der oprettes en ArrayList, som du kalder 'customers'. Denne skal være erklæret som static global variabel - dvs tilgængelig udenfor main metoden. Tilføj 6 instanser af Customer-klassen til listen customers. Dette gør du i main-metoden. 
 (Du kan oprette instanserne først, og så add'e dem til array'et. Du kan også adde og instantiere i samme linie.)
 
-1.d Skriv en metode i Main kaldet printCustomers(), hvor du printer alle kunderne ud ved at gennemløbe 'customers' med et ’for each’ loop. Test metoden fra main ved at kalde den.
+1.d Skriv en static metode i Main kaldet printCustomers(), hvor du printer alle kunderne ud ved at gennemløbe 'customers' med et ’for each’ loop. Test metoden fra main ved at kalde den.
 
 
-
-
-
-
-## Task 2: load coffee menu for a cafe
+## Task 2: Load coffee menu for a cafe
 In this program we will load a list of coffee names and display it to the user. We will create a Cafe class that loads the list and a Main class that tests that the Cafe class works as expected.
 
-2.a Above you will see a file called coffees.txt. Open it and check that is contains 5 names for types of coffee. Download it, or copy it to a new textfile and save it with the same name. Place coffees.txt in the same folder as the classes you will write for this task.
+2.a Above you will see a file called coffees.txt. Open it and check that is contains 5 names for types of coffee. Download it, or copy the text to a new textfile and save it with the same name. Place coffees.txt in the same folder as the classes you will write for this task.
 
 2.b Create a class called Main with a main method. 
 
 2.c Create another class called Cafe. Give it an attribute called 'coffeeMenu' of type ArrayList\<String\>. 
 (Later you will fill this ArrayList with the names of the coffees from the textfile).
 
-
 2.c In the Cafe class, add a method <code>loadMenuData</code> 
 Have the method load the coffees.txt file like this:
 <code>File file = new File("coffees.txt) </code>  
 (make sure that the path is right)
-
 
 2.d In this step you will read from the file, using a Scanner object: Add the <code>file</code> instance to a new Scanner object. (This piece of code will need to be wrapped in a try -catch block)
 
