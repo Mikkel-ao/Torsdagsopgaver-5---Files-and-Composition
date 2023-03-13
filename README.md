@@ -88,7 +88,7 @@ Use a while loop with the <code>hasNextLine()</code> and <code>nextLine()</code>
 
 ---
 ## Task 3: Buildings and Rooms
-This task i an excersice in accessing fields in objects within objects. You will create a building with some rooms. Each room will have some attributes which you will access(read the value of) in order to draw conclusions about the building in which the room is placed.
+This task is an excercise in accessing fields in objects within objects. You will create a building with some rooms. Each room will have some attributes which you will access(read the value of) in order to draw conclusions about the building in which the rooms are placed.
 
 3.a Create a Room.java class with the following fields (use appropriate types and make them private): 
 - numberOfDoors
@@ -97,10 +97,10 @@ This task i an excersice in accessing fields in objects within objects. You will
 
 3.b Create a constructor that populates all the fields above.
 
-3.c As the fields of the Room class are private, create getters() for each of them, 
+3.c As the fields of the Room class are private, create getter()-methods for them, 
 
 3.d Create a Building.java class with the following fields (use appropriate types):
-- Rooms (make sure to use the \'final\' keyword here as this variable should never change once it has been assigned a value)
+- rooms (make sure to use the \'final\' keyword here as this variable should never change once it has been assigned a value)
    <details>
         <summary>
           Hint  
@@ -109,7 +109,7 @@ This task i an excersice in accessing fields in objects within objects. You will
     </details>
 
    <details>
-        <summary>never heard about  <code>final</code>?
+        <summary>Never heard about  <code>final</code>?
         </summary>
          <a href="https://www.geeksforgeeks.org/final-keyword-in-java/">read about the final keyword</a>
     </details>
@@ -119,11 +119,11 @@ This task i an excersice in accessing fields in objects within objects. You will
 
 3.e Create a constructor that populates all the fields above. 
 
-3.f As the fields of the Building class are private, create getters() for each of them.
+3.f As the fields of the Building class are private, create getters() for them.
     
 3.g In your main method, instantiate at least three different rooms. 
 
-3.h Add the three rooms to a collection (preferably of the same data type used for the "Rooms" field in your Building.java class).
+3.h Add the three rooms to a collection (preferably of the same data type used for the "rooms" field in your Building.java class).
 
 3.i In your main method, instantiate a new building.
 
@@ -136,6 +136,15 @@ This task i an excersice in accessing fields in objects within objects. You will
     </details>
 
 3.k create another static method in Main, isNormal, that takes an object of type Building. The method should return true if the Building's numberOfFloors is greater than its number of Rooms. If not it should print "This is an odd building" and return false.
+
+3.l Make unittests for countLampsInBuilding and isNormal using JUnit. 
+<details>
+        <summary>
+           Hint
+        </summary>
+         You will need to make a new Building with some Rooms in your unittest-method and call the methods countLampsInBuilding and isNormal with the Building-object. Make more than one test-method and use different Buildings to test your methods. 
+    </details>
+
 
 
 ---
