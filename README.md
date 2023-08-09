@@ -137,16 +137,6 @@ This task is an excercise in accessing fields in objects within objects. You wil
 
 3.k create another static method in Main, isNormal, that takes an object of type Building. The method should return true if the Building's numberOfFloors is greater than its number of Rooms. If not it should print "This is an odd building" and return false.
 
-3.l Make unittests for countLampsInBuilding and isNormal using JUnit. 
-<details>
-        <summary>
-           Hint
-        </summary>
-         You will need to make a new Building with some Rooms in your unittest-method and call the methods countLampsInBuilding and isNormal with the Building-object. Make more than one test-method and use different Buildings to test your methods. 
-    </details>
-
-
-
 ---
 
 ## Task 4: Dokumenter koden
