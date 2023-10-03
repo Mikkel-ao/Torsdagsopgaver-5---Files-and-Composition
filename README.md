@@ -90,7 +90,7 @@ Use a while loop with the <code>hasNextLine()</code> and <code>nextLine()</code>
 ## Task 3: Buildings and Rooms
 This task is an excercise in accessing fields in objects within objects. You will create a building with some rooms. Each room will have some attributes which you will access(read the value of) in order to draw conclusions about the building in which the rooms are placed.
 
-Use this diagram as an aid. It shows the attributes and method signatures refered to in steps 3.a to 3.f.
+Follow the steps and use this diagram as an aid. The diagram shows the attributes and method signatures refered to in steps 3.a to 3.f.
 ![class diagram](https://github.com/Dat1Cphbusiness/Torsdagsopgaver-5---Files-and-Composition/blob/main/doc/classdiagram.png)
 
 3.a Create a Room.java class with the following fields (use appropriate types and make them private): 
