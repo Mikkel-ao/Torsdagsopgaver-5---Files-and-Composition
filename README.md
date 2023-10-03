@@ -89,6 +89,7 @@ Use a while loop with the <code>hasNextLine()</code> and <code>nextLine()</code>
 ---
 ## Task 3: Buildings and Rooms
 This task is an excercise in accessing fields in objects within objects. You will create a building with some rooms. Each room will have some attributes which you will access(read the value of) in order to draw conclusions about the building in which the rooms are placed.
+You may use the diagram in the bottom as an aid for this assignment. It shows the attributes and method signatures refered to in steps 3.a to 3.f.
 
 3.a Create a Room.java class with the following fields (use appropriate types and make them private): 
 - numberOfDoors
@@ -134,4 +135,4 @@ This task is an excercise in accessing fields in objects within objects. You wil
 3.k create another static method in Main, isNormal, that takes an object of type Building. The method should return true if the Building's numberOfFloors is greater than its number of Rooms. If not it should print "This is an odd building" and return false.
 
 ---
-
+[alt text](https://github.com/[username]/[reponame]/doc/main.jpg?raw=true)
