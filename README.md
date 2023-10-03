@@ -136,5 +136,4 @@ You may use the diagram in the bottom as an aid for this assignment. It shows th
 
 ---
 
-![class diagram](https://github.com/[tessLG]/[Torsdagsopgaver-5---Files-and-Composition
-]/doc/classdiagram.png?raw=true)
+![class diagram](https://github.com/Dat1Cphbusiness/Torsdagsopgaver-5---Files-and-Composition/blob/main/doc/classdiagram.png)
