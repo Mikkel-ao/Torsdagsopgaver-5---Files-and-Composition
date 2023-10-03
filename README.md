@@ -135,4 +135,6 @@ You may use the diagram in the bottom as an aid for this assignment. It shows th
 3.k create another static method in Main, isNormal, that takes an object of type Building. The method should return true if the Building's numberOfFloors is greater than its number of Rooms. If not it should print "This is an odd building" and return false.
 
 ---
-[alt text](https://github.com/[username]/[reponame]/doc/main.jpg?raw=true)
+
+![alt text](https://github.com/[TessLG]/[Torsdagsopgaver-5---Files-and-Composition
+]/blob/[branch]/doc/classdiagram.png?raw=true)
