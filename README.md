@@ -18,10 +18,10 @@ int id
 
 1.b Klassen skal have en konstruktør, der tager kundens navn og brugernavn som parametre. Giv klassen en toString() metode, der printer kundens detaljer pænt ud. Gør alle klassens felter private, og tilføj getters().
 
-1.c Skriv en Main klasse med en main metode, hvor der oprettes en ArrayList, som du kalder 'customers'. Denne skal være erklæret som static global variabel - dvs tilgængelig udenfor main metoden. Tilføj 6 instanser af Customer-klassen til listen customers. Dette gør du i main-metoden. 
+1.c Skriv en Main klasse med en main metode, hvor der oprettes en ArrayList, som du kalder 'customers'.  
 (Du kan oprette instanserne først, og så add'e dem til array'et. Du kan også adde og instantiere i samme linie.)
 
-1.d Skriv en static metode i Main kaldet <code>printCustomers()</code>, hvor du printer alle kunderne ud ved at gennemløbe 'customers' med et ’for each’ loop. Test metoden fra main ved at kalde den.
+1.d Skriv en static metode i Main kaldet <code>printCustomers(ArrayList<Customer> customers)</code>, hvor du printer alle kunderne ud ved at gennemløbe 'customers' med et ’for each’ loop. Test metoden fra main ved at kalde den med din ArrayList som argument.
 
 
 ## Task 2: Load coffee menu for a cafe
@@ -100,7 +100,7 @@ This task is an excercise in accessing fields in objects within objects. You wil
 3.c As the fields of the Room class are private, create getter()-methods for them, 
 
 3.d Create a Building.java class with the following fields (use appropriate types):
-- rooms (make sure to use the \'final\' keyword here as this variable should never change once it has been assigned a value)
+- rooms 
    <details>
         <summary>
           Hint  
@@ -108,11 +108,7 @@ This task is an excercise in accessing fields in objects within objects. You wil
         This should be a datatype that can hold multiple objects of type Room.
     </details>
 
-   <details>
-        <summary>Never heard about  <code>final</code>?
-        </summary>
-         <a href="https://www.geeksforgeeks.org/final-keyword-in-java/">read about the final keyword</a>
-    </details>
+   
 - numberOfBathrooms
 - numberOfFloors
 - isOfficeBuilding
@@ -138,27 +134,4 @@ This task is an excercise in accessing fields in objects within objects. You wil
 3.k create another static method in Main, isNormal, that takes an object of type Building. The method should return true if the Building's numberOfFloors is greater than its number of Rooms. If not it should print "This is an odd building" and return false.
 
 ---
-
-## Task 4: Dokumenter koden
-Denne opgave forudsætter at du nu har kodet Task3 og placeret koden i en folder under src med navnet Task3
-
-4.a Lav en ny folder i projektet - på samme niveau som src folderen - som du kalder "Documentation".  
-
-4.b Opret en PlantUML fil i folderen, med navnet "BuildingsAndRooms" - vælg diagramtypen 'object'.
-
-4.c Skriv plantUML kode, der afspejler den kode du skrev i Task3, og som ligger i src/Task2. 
-
-For hver klasse skal diagrammet vise en kasse med klassens navn samt klassens:
- -  instansvariable (el. felter): access modifyer, datatype, navn
- -  instansmetoder: husk at skrive hele signaturen (incl. access modifyer, returtype, navn og parameterliste)
- 
-4.d Få diagrammet til at vise relationer mellem klasserne ved at tegne linjer mellem kasserne:
- <details>
-        <summary>
-           Hint
-        </summary>
-         Et 'has-a' relationship vises sådan her:
-          <code>Building *-- Room</code> <br>
-         <i>(En bil har en motor)</i>
-    </details>
 
