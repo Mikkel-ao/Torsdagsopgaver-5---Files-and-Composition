@@ -11,17 +11,24 @@ Please note, that it is quite unusual to have a Main class in each package, yet 
 ## Task 1: ArrayList og objekter
 
 1.a Lav en klasse, <code>Customer</code>, med attributterne (felterne/instansvariablene):
+<code>
 String firstName
 String lastName
 String username
 int id
+static counter</code>
 
-1.b Klassen skal have en konstruktør, der tager kundens navn og brugernavn som parametre. Giv klassen en toString() metode, der printer kundens detaljer pænt ud. Gør alle klassens felter private, og tilføj getters().
+1.b Klassen skal have en konstruktør, der tager kundens navn og brugernavn som parametre. 
 
-1.c Skriv en Main klasse med en main metode, hvor der oprettes en ArrayList, som du kalder 'customers'.  
+
+1.c Sørg for at <code>counter</code> tælles op med 1, hver gang konstruktoren bliver kaldt. Brug <code>counter</code>  til at initialisere <code>id</code>
+
+1.d Giv klassen en toString() metode, der printer kundens detaljer pænt ud. Gør alle klassens felter private, og tilføj getters().
+
+1.e Skriv en Main klasse med en main metode, hvor der oprettes en ArrayList, som du kalder 'customers'.  
 (Du kan oprette instanserne først, og så add'e dem til array'et. Du kan også adde og instantiere i samme linie.)
 
-1.d Skriv en static metode i Main kaldet <code>printCustomers(ArrayList<Customer> customers)</code>, hvor du printer alle kunderne ud ved at gennemløbe 'customers' med et ’for each’ loop. Test metoden fra main ved at kalde den med din ArrayList som argument.
+1.f Skriv en static metode i Main kaldet <code>printCustomers(ArrayList<Customer> customers)</code>, hvor du printer alle kunderne ud ved at gennemløbe 'customers' med et ’for each’ loop. Test metoden fra main ved at kalde den med din ArrayList som argument.
 
 
 ## Task 2: Load coffee menu for a cafe
@@ -43,7 +50,7 @@ Have the method load the coffees.txt file like this:
 
 The solution to this step is given below, but give it a go before peeping.
 <details>
-  <summary> The solution to this step:
+  <summary> Peep the solution to this step:
   </summary>
   <code>try {
 
