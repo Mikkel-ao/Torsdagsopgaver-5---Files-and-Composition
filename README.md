@@ -16,7 +16,7 @@ String firstName
 String lastName
 String username
 int id
-static counter</code>
+static int counter</code>
 
 1.b Klassen skal have en konstruktør, der tager kundens navn og brugernavn som parametre. 
 
