@@ -1,11 +1,11 @@
 ### Exercises with Files and composition
 
 Today's exercises should be performed in IntelliJ. 
-You are to create one new project for the solutions to the excercises in this set. 
-For each task below, you must create a new package in the project's src directory. Name it accordingly to the task, e.g. "Task1". 
-In each package(same as a folder), create a class <code>Main.java</code> with a <code>public static void main(String[] args)</code> - method which will be used to start the program and call the methods required to complete the tasks. 
+Create a new project for the solutions to the excercises in this set. 
+For each task below, you must create a new package (same as a folder) in the project's src directory. Name it according to the task, e.g. "task1". 
+In each package, create a class <code>Main.java</code> with a <code>public static void main(String[] args)</code> - method which will be used to start the program and call the methods required to complete the tasks. 
 
-Please note, that it is quite unusual to have a Main class in each package, yet this is done so for the sake of the exercise.
+Please note, that it is unusual to have a Main class in each package, yet this is done so for the sake of the exercise.
 
 ---
 ## Task 1: ArrayList og objekter
@@ -20,15 +20,14 @@ static int counter</code>
 
 1.b Klassen skal have en konstruktør, der tager kundens navn og brugernavn som parametre. 
 
-
 1.c Sørg for at <code>counter</code> tælles op med 1, hver gang konstruktoren bliver kaldt. Brug <code>counter</code>  til at initialisere <code>id</code>
 
-1.d Giv klassen en toString() metode, der printer kundens detaljer pænt ud. Gør alle klassens felter private, og tilføj getters().
+1.d Giv klassen en <code>toString()</code> metode, der printer kundens detaljer pænt ud. Gør alle klassens felter private, og tilføj getters og setters.
 
-1.e Skriv en Main klasse med en main metode, hvor der oprettes en ArrayList, som du kalder 'customers'.  
-(Du kan oprette instanserne først, og så add'e dem til array'et. Du kan også adde og instantiere i samme linie.)
+1.e Skriv en <code>Main</code> klasse med en <code>main</code>-metode, hvor der oprettes en <code>ArrayList</code>, som du kalder 'customers'.  
+(Du kan oprette instanserne først, og så add'e dem til listen. Du kan også instantiere og add'e i samme linie.)
 
-1.f Skriv en static metode i Main kaldet <code>printCustomers(ArrayList<Customer> customers)</code>, hvor du printer alle kunderne ud ved at gennemløbe 'customers' med et ’for each’ loop. Test metoden fra main ved at kalde den med din ArrayList som argument.
+1.f Skriv en static metode i <code>Main</code> kaldet <code>printCustomers(ArrayList<Customer> customers)</code>, hvor du printer alle kunderne ud ved at gennemløbe <code>customers</code> med et for each loop. Test metoden fra <code>main</code> ved at kalde den med din <code>ArrayList</code> som argument.
 
 
 ## Task 2: Load coffee menu for a cafe
