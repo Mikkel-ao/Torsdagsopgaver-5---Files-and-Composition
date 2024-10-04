@@ -31,9 +31,9 @@ static int counter</code>
 
 
 ## Task 2: Load coffee menu for a cafe
-In this program we will load a list of coffee names and display it to the user. We will create a Cafe class that loads the list and a Main class that tests that the Cafe class works as expected.
+In this program we will load a list of coffee names and display it to the user. We will create a <code>Cafe</code> class which loads the list and a <code>Main</code> class which tests that the <code>Cafe</code> class is working as expected.
 
-2.a Above you will see a file called coffees.txt. Open it and check that is contains 5 names for types of coffee. Download it, or copy the text to a new textfile and save it with the same name. Place coffees.txt in the same folder as the classes you will write for this task.
+2.a In this repository you will find a file called coffees.txt. Open it and check that is contains 5 names for types of coffee. Download it or copy the text to a new text file and save it with the same coffee.txt.
 
 2.b Create a class called Main with a main method. 
 
