@@ -94,7 +94,7 @@ The diagram below shows the attributes and method signatures referred to in step
 
 3.b Create a constructor that populates (assigns values to) all the fields.
 
-3.c As the fields of <code>Room</code> are private, create getter-methods for them, 
+3.c As the fields of <code>Room</code> are private, create getter- and setter-methods for them. 
 
 3.d Create a class <code>Building</code> with the following fields (use appropriate types and make them private):
 - rooms 
@@ -104,13 +104,11 @@ The diagram below shows the attributes and method signatures referred to in step
         </summary>
         This should be a datatype that can hold multiple objects of type <code>Room</code>.
     </details>   
-- numberOfBathrooms
 - numberOfFloors
-- isOfficeBuilding
 
 3.e Create a constructor that populates all the fields. 
 
-3.f As the fields of <code>Building</code> are private, create getters for them.
+3.f As the fields of <code>Building</code> are private, create getters and setters for them.
     
 3.g Create a class <code>Main</code> with a <code>main</code>-method. In your <code>main</code>-method, instantiate at least three different rooms. 
 
