@@ -59,22 +59,16 @@ The solution to this step is given below, but give it a go before peeping.
 </code>
 </details>
 
-
 2.e Inside the try block from the last step, you will now add this piece of code that loops over the lines of the textfile:
-
 
 Use a while loop with the <code>hasNextLine()</code> and <code>nextLine()</code> -methods called on the Scanner instance, to loop over the lines of the file and add the lines to the coffees ArrayList in this class.
 <details>
   <summary> peep solution:
   </summary>
 <code>
-
   while(scan.hasNextLine()){
-
-        coffeeMenu.add(scan.nextLine());
-
-  }
-
+    coffeeMenu.add(scan.nextLine());
+}  
 </code>      
 </details>
 
