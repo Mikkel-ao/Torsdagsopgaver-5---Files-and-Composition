@@ -41,7 +41,7 @@ In this program we will load a list of coffee names and display it to the user. 
 
 2.c In the <code>Cafe</code> class add a method <code>loadMenuData()</code>.
 In the method make a <code>File</code>-object representing the coffees.txt file like this:
-<code>File file = new File("coffees.txt") </code>  
+<p><code>File file = new File("coffees.txt") </code>  </p>
 (make sure that the path is right)
 
 2.d In this step you will read from the file, using a Scanner object: Add the <code>File</code> instance to a new Scanner object. (This piece of code will need to be wrapped in a <code>try -catch</code> block)
@@ -53,7 +53,6 @@ The solution to this step is given below, but give it a go before peeping.
   <code>try {
           File file = new File("coffees.txt");
           Scanner scan = new Scanner(file); 
-
         } catch(FileNotFoundException e){
           System.out.println("File not found. Check path and filename");  
         }
