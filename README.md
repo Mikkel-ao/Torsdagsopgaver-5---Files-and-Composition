@@ -77,7 +77,7 @@ while(scan.hasNextLine()){
 2.h Still in the main method, print all the elements of the  attribute <code>coffeeMenu</code> of the Cafe instance you just created.
 <details>
   <summary> Hint:</summary>
-  You should use a for loop, and in the body of the loop use the <code>get()</code> method of ArrayList, to get hold of the item before printing it.  
+  You should use a for loop, and in the body of the loop use the <code>get()</code> method of <code>ArrayList</code>, to get hold of the item before printing it.  
 </details>
 
 
