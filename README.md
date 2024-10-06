@@ -48,7 +48,7 @@ In the method make a <code>File</code>-object representing the coffees.txt file 
 
 The solution to this step is given below, but give it a go before peeping.
 <details>
-  <summary> Sneak peek
+  <summary>Sneak peek
   </summary>
   <code>try {
           File file = new File("coffees.txt");
@@ -63,7 +63,7 @@ The solution to this step is given below, but give it a go before peeping.
 
 Use a while loop with the <code>hasNextLine()</code> and <code>nextLine()</code> -methods called on the Scanner instance, to loop over the lines of the file and add the lines to the coffees ArrayList in this class.
 <details>
-  <summary> peep solution:
+  <summary>Sneak peek
   </summary>
 <code>
   while(scan.hasNextLine()){
@@ -77,7 +77,7 @@ Use a while loop with the <code>hasNextLine()</code> and <code>nextLine()</code>
 2.h Still in the main method, print all the elements of the  attribute <code>coffeeMenu</code> of the Cafe instance you just created.
 <details>
   <summary> Hint:</summary>
-  you should use a for loop, and in the body of the loop use the <code>get()</code> method of ArrayList, to get hold of the item before printing it.  
+  You should use a for loop, and in the body of the loop use the <code>get()</code> method of ArrayList, to get hold of the item before printing it.  
 </details>
 
 
