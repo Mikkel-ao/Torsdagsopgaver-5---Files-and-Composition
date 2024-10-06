@@ -37,7 +37,7 @@ In this program we will load a list of coffee names and display it to the user. 
 
 2.b Create a class called <code>Main</code> with a <code>main</code>-method. 
 
-2.c Create another class called <code>Cafe</code>. Give it an attribute called <code>coffeeMenu</code> of type <code>ArrayList\<String\></code> (later you will fill this <code>ArrayList</code> with the names of the coffees from the textfile).
+2.c Create another class called <code>Cafe</code>. Give it an attribute called <code>coffeeMenu</code> of type <code>ArrayList\<String\></code> (later you will fill this <code>ArrayList</code> with the names of the coffees from the textfile). Make the attribute private and write a getter-method that returns the list. 
 
 2.c In the <code>Cafe</code> class add a method <code>loadMenuData()</code>.
 In the method make a <code>File</code>-object representing the coffees.txt file like this:
@@ -48,8 +48,7 @@ In the method make a <code>File</code>-object representing the coffees.txt file 
 
 The solution to this step is given below, but give it a go before peeping.
 <details>
-  <summary>Sneak peek
-  </summary>
+  <summary>Sneak peek</summary>
   <code>try {
           File file = new File("coffees.txt");
           Scanner scan = new Scanner(file); 
@@ -72,12 +71,12 @@ while(scan.hasNextLine()){
 </code>      
 </details>
 
-2.g In the main method create a new instance of the Cafe class and call its <code>loadMenuData()</code> -method.
+2.g In the <code>main</code>-method create a new instance of the <code>Cafe</code> class and call it's <code>loadMenuData()</code> -method.
 
-2.h Still in the main method, print all the elements of the  attribute <code>coffeeMenu</code> of the Cafe instance you just created.
+2.h Still in the <code>main</code>-method, print all the elements of the  attribute <code>coffeeMenu</code> of the <code>Cafe</code> instance you just created.
 <details>
-  <summary> Hint:</summary>
-  You should use a for loop, and in the body of the loop use the <code>get()</code> method of <code>ArrayList</code>, to get hold of the item before printing it.  
+  <summary>Hint</summary>
+  Use the getter-method from the <code>Cafe</code> class to retrieve the list of coffees. Then use a for loop to iterate through the list and and print the names of the coffees one by one. 
 </details>
 
 
