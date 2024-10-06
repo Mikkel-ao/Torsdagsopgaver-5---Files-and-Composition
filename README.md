@@ -66,8 +66,8 @@ Use a while loop with the <code>hasNextLine()</code> and <code>nextLine()</code>
   <summary>Sneak peek
   </summary>
 <code>
-  while(scan.hasNextLine()){
-    coffeeMenu.add(scan.nextLine());
+while(scan.hasNextLine()){
+  coffeeMenu.add(scan.nextLine());
 }  
 </code>      
 </details>
