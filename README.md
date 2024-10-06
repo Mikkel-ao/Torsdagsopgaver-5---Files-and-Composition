@@ -33,33 +33,30 @@ static int counter</code>
 ## Task 2: Load coffee menu for a cafe
 In this program we will load a list of coffee names and display it to the user. We will create a <code>Cafe</code> class which loads the list and a <code>Main</code> class which tests that the <code>Cafe</code> class is working as expected.
 
-2.a In this repository you will find a file called coffees.txt. Open it and check that is contains 5 names for types of coffee. Download it or copy the text to a new text file and save it with the same coffee.txt.
+2.a In this repository you will find a file called coffees.txt. Open it and check that is contains 5 names for types of coffee. Download it or copy the text to a new text file and save it with the same name coffee.txt. Remember to save it in the root of your project and not in the src folder with the .java files. 
 
-2.b Create a class called Main with a main method. 
+2.b Create a class called <code>Main</code> with a <code>main</code>-method. 
 
-2.c Create another class called Cafe. Give it an attribute called 'coffeeMenu' of type ArrayList\<String\>. 
-(Later you will fill this ArrayList with the names of the coffees from the textfile).
+2.c Create another class called <code>Cafe</code>. Give it an attribute called <code>coffeeMenu</code> of type <code>ArrayList\<String\></code> (later you will fill this <code>ArrayList</code> with the names of the coffees from the textfile).
 
-2.c In the Cafe class, add a method <code>loadMenuData</code> 
-Have the method load the coffees.txt file like this:
-<code>File file = new File("coffees.txt) </code>  
+2.c In the <code>Cafe</code> class add a method <code>loadMenuData()</code>.
+In the method make a <code>File</code>-object representing the coffees.txt file like this:
+<code>File file = new File("coffees.txt") </code>  
 (make sure that the path is right)
 
-2.d In this step you will read from the file, using a Scanner object: Add the <code>file</code> instance to a new Scanner object. (This piece of code will need to be wrapped in a try -catch block)
+2.d In this step you will read from the file, using a Scanner object: Add the <code>File</code> instance to a new Scanner object. (This piece of code will need to be wrapped in a <code>try -catch</code> block)
 
 The solution to this step is given below, but give it a go before peeping.
 <details>
-  <summary> Peep the solution to this step:
+  <summary> Sneak peek
   </summary>
   <code>try {
+          File file = new File("coffees.txt");
+          Scanner scan = new Scanner(file); 
 
-         Scanner scan = new Scanner(file); 
-
-     }catch(FileNotFoundException e){
-
-        System.out.println("File not found. Check path and filename");  
-
-      }
+        } catch(FileNotFoundException e){
+          System.out.println("File not found. Check path and filename");  
+        }
 </code>
 </details>
 
