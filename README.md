@@ -86,7 +86,8 @@ while(scan.hasNextLine()){
 This task is an excercise in accessing fields in objects within objects. You will create a building with some rooms. Each room will have some attributes which you will access (read the value of) in order to determine how many windows and lamps are in the building.
 
 The diagram below shows the attributes and method signatures referred to in steps 3.a t 3.f.
-![class diagram](https://github.com/Dat1Cphbusiness/Torsdagsopgaver-5---Files-and-Composition/blob/main/doc/classdiagram.png)
+![image](https://github.com/user-attachments/assets/031a1ee1-4f2d-4510-b212-3f052434a597)
+
 
 3.a Create a class <code>Room</code> with the following attributes/fields (use appropriate types and make them private): 
 - numberOfLamps
