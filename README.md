@@ -123,8 +123,7 @@ The diagram below shows the attributes and method signatures referred to in step
            Hint
         </summary>
          You will need to create a loop that looks at each room in the building and adds the number of lamps in each room to a variable.
-   
-    </details>
+</details>
 
 Create methods <code>countWindowsInBuilding()</code> and <code>countRoomsInBuilding()</code>. Test in <code>main</code> that your methods work as expected. If not, debug your program. 
 
