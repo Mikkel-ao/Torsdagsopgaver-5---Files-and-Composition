@@ -122,7 +122,8 @@ The diagram below shows the attributes and method signatures referred to in step
         <summary>
            Hint
         </summary>
-         You will need to have a loop in the body of the method that looks at each room in the building to add the number of laps in each room.
+         You will need to create a loop that looks at each room in the building and adds the number of lamps in each room to a variable.
+   
     </details>
 
 Create methods <code>countWindowsInBuilding()</code> and <code>countRoomsInBuilding()</code>. Test in <code>main</code> that your methods work as expected. If not, debug your program. 
