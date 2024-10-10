@@ -14,8 +14,8 @@ public class Main {
     }
     // 1.f
     public static void printCustomers(ArrayList customers) {
-        for (int i = 0; i < customers.size(); i++) {
-            System.out.println(customers.get(i));
+        for (Object customer : customers) {
+            System.out.println(customer);
         }
     }
 
